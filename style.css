@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color :rgb(64, 142, 9);
+    background-image: url("http://thewowstyle.com/wp-content/uploads/2015/01/nature-wallpaper-27.jpg");
+}
+
+header {
+   
+    color: #ffffff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #ffffff;
+}
+
+main {
+    padding: 1em;
+    text-align: center;
+    color: #ffffff;
+}
+
+}
+
+section {
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+#gallery {
+    text-align: center;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.gallery-container img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+#cta {
+    text-align: center;
+}
+
+#ctaButton {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#ctaButton:hover {
+    background: #45a049;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
